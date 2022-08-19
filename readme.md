@@ -21,7 +21,7 @@ The firmware image can be updated remotely by the HttpUpdater process. </p>
   <li>ESP8266 V2.4+</li>
 <li>Arduino MQTT client (https://pubsubclient.knolleary.net/api.html) - used for report state to the Node-red device health monitor</li>
 <li>Arduino JSON library (pre v6)  - used to parse and respond to REST queries. </li>
-<li>ASCOM_COMMON library - see other repo here. Used to create standard response templates and handle ALPACA UDP queries. </li>
+<li>ASCOM_COMMON library - see other repo <a href="https://github.com/skybadger/ESP_Alpaca_common" >here</a>. Used to create standard response templates and handle ALPACA UDP queries. </li>
 <li>Remote Debug library  - Used to access via telnet for remote debugging</li>
 </ul>
 
